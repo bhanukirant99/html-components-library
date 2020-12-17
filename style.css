@@ -47,5 +47,18 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 1rem;
+    color: white;
 }
 
+.navigation {
+    background-color: var(--primary-color);
+}
+
+.navigation .link {
+    color: white;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: end;
+}
