@@ -104,3 +104,19 @@ hr {
 .ow {
     background-color: var(--light-gray);
 }
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .link {
+    color: var(--light-gray);
+}
+
+.footer ul {
+    padding-inline-start: 0;
+}
