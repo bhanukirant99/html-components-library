@@ -1,15 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
 
+:root {
+    --primary-color: #536DFE;
+}
+
 body {
     font-family: 'Andika New Basic', sans-serif;
 }
 
 .containerFuild{
-    padding-left: irem;
-    padding-right: irem;
+    padding: 0rem 1rem;
 }
 
 .containerCenter {
     max-width: 700px;
     margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primaryLink {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondaryLink {
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    color: white;
+    margin: 5px;
 }
