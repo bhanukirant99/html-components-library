@@ -52,6 +52,12 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem 
+}
+
+.nav-brand {
+    font-weight: bold;
 }
 
 .navigation .link {
@@ -59,6 +65,9 @@ hr {
 }
 
 .nav-pills {
-    display: flex;
-    justify-content: end;
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
 }
