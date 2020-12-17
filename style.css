@@ -2,6 +2,8 @@
 
 :root {
     --primary-color: #536DFE;
+    --dark-gray: #939393;
+    --light-gray: #F3F4F6;
 }
 
 body {
@@ -10,6 +12,10 @@ body {
 
 hr {
     margin: 2rem 0rem;
+}
+
+.container {
+    padding: 0.5rem 1rem;
 }
 
 .containerFuild{
@@ -70,4 +76,31 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero-h2 {
+    font-size: x-large;
+    color: var(--dark-gray);
+}
+
+.section {
+    padding: 1rem;
+}
+
+.section h4{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--light-gray);
 }
